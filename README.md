@@ -1,0 +1,1 @@
+This is a small form project where I practiced form validation using HTML, CSS and Javascript.

@@ -1,0 +1,101 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     background: #224941 url('./images/background.jpg') no-repeat center center/cover;
+     font-family: 'Lato', sans-serif;
+     color: white;
+     margin: 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     overflow: hidden;
+ }
+
+ h1 {
+     position: absolute;
+     top: 0px;
+     font-family: 'Lato', sans-serif;
+     font-size: 50px;
+ }
+
+ h2 {
+     text-align: center;
+     margin: 0 0 20px;
+     font-family: 'Lato', sans-serif;
+     font-size: 30px;
+ }
+
+ .container {
+     background: #010f1c94;
+     width: 380px;
+     border: 1px solid white;
+     position: absolute;
+     top: center;
+     left: center;
+ }
+
+ .form {
+     padding: 30px 40px;
+ }
+
+ .register {
+     margin-bottom: 10px;
+     padding-bottom: 20px;
+     position: relative;
+ }
+
+ .register label {
+     display: block;
+     margin-bottom: 6px;
+ }
+
+ .register input {
+     border-radius: 4px;
+     color: white;
+     width: 100%;
+     display: block;
+     padding: 10px;
+     font-size: 16px;
+     background-color: rgba(255, 255, 255, 0.082);
+ }
+
+ .register input:focus {
+     outline: none;
+     border-color: white;
+ }
+
+ .register.success input {
+     border-color: lightgreen;
+ }
+
+ .register.error input {
+     border-color: red;
+ }
+
+ .register small {
+     color: red;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     visibility: hidden;
+ }
+
+ .register.error small {
+     visibility: visible;
+ }
+
+ .form button {
+     cursor: pointer;
+     background-color: lightgreen;
+     border: 2px solid lightgreen;
+     border-radius: 4px;
+     display: block;
+     font-size: 14px;
+     width: 100%;
+     padding: 10px;
+ }
