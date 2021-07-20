@@ -1,4 +1,4 @@
-Form Validation
+## Form Validation Project
 
 This mini project was built with HTML, CSS an Javascript. The project took half a day to complete. 
 
